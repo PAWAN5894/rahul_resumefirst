@@ -1,0 +1,22 @@
+.container{
+    background-color: red;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 140px 1fr 1fr;
+    /*grid-template-rows: 140px 140px 140px;
+    grid-template-columns: 140px 140px 140px;*/
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 12PX;
+    column-gap: 12px;
+    
+
+}
+.item{
+background-color: green;
+/*height: 100px;
+width: 100px;*/
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
